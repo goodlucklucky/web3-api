@@ -1,13 +1,13 @@
-rootProject.name = 'web3j-openapi'
+rootProject.name = 'web3j-api'
 
 include 'server'
-findProject(':server')?.name = 'web3j-openapi-server'
+findProject(':server')?.name = 'web3j-api-server'
 
 include 'core'
-findProject(':core')?.name = 'web3j-openapi-core'
+findProject(':core')?.name = 'web3j-api-core'
 
 include 'client'
-findProject(':client')?.name = 'web3j-openapi-client'
+findProject(':client')?.name = 'web3j-api-client'
 
 include 'codegen'
-findProject(':codegen')?.name = 'web3j-openapi-codegen'
+findProject(':codegen')?.name = 'web3j-api-codegen'
