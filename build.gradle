@@ -16,7 +16,7 @@ plugins {
     id 'de.marcphilipp.nexus-publish' version '0.4.0'
 }
 
-description = 'Web3j-OpenAPI code generation for Ethereum smart contracts.'
+description = 'Web3j-API code generation for Ethereum smart contracts.'
 
 ext {
     web3jVersion = version
@@ -57,9 +57,9 @@ subprojects {
             maven(MavenPublication) {
                 pom {
                     scm {
-                        url = "https://github.com/web3j/web3j-openapi"
-                        connection = "scm:https://github.com/web3j/web3j-openapi.git"
-                        developerConnection = "scm:git://github.com/web3j/web3j-openapi.git"
+                        url = "https://github.com/web3j/web3j-api"
+                        connection = "scm:https://github.com/web3j/web3j-api.git"
+                        developerConnection = "scm:git://github.com/web3j/web3j-api.git"
                     }
                 }
             }
